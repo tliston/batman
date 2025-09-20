@@ -12,7 +12,7 @@ def send(m, dest_ip, dest_port):
 def there_I_fixed_it(dest_ip, dest_port):
     for i in range(16):
         send(b'na\n', dest_ip, dest_port)
-        t.sleep(0.5)
+        t.sleep(0.3)
     t.sleep(1.5)
     send(b'batman\n', dest_ip, dest_port)
 
