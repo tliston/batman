@@ -20,3 +20,5 @@ Speaking of testing it locally, here's a way to do that:
 `socat - TCP-LISTEN:5552,fork,reuseaddr`
 
 There... I fixed it.
+
+If you don't want to go to the trouble of actually getting this running, you could just download the [.pcap file](https://github.com/tliston/batman/blob/main/batman.pcap) and take a look.
